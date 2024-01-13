@@ -1,0 +1,483 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+/* ? CAPACITACION BANNER<-------------- */
+
+/* .entrenamientos__scroll-wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+} */
+
+.capacitacion {
+  background-image: url(/public/images/entrenamientos/Banner-1.jpg);
+  background-size: cover;
+  color: #fff;
+  padding-block: 100px;
+  display: flex;
+  position: relative;
+  /* transform: translateZ(-10px) scale(2.08);
+  z-index: -1; */
+}
+
+.capacitacion-container {
+  max-width: 60%;
+  /* align-items: center; */
+  /* padding: 115px 500px 115px 300px; */
+  margin: auto;
+}
+
+.entrenamientos__header {
+  font-size: max(4vw, 1.75rem) !important;
+  font-weight: 800;
+}
+
+.entrenamientos__paragraph {
+  font-size: max(1.3vw, 1rem);
+  font-weight: 200;
+}
+
+.btn__capacitacion-main-banner {
+  background-color: #ffffff;
+  color: #850731;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+/* ^ SIDEBAR ON BANNER */
+/* .sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #66011fdc;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 75px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #cecdcd;
+  text-decoration: underline;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 120px;
+  left: 170px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+} */
+
+/*? ENTRENAMIENTO ONLINE<----------- */
+
+.entrenamientos__entrenamientos-online {
+  background-color: #fff;
+  scroll-margin-top: 850px;
+}
+
+
+.entrenamientos-entrenamiento__card-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.entrenamientos-entrenamiento__card-image {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 10/9;
+  object-fit: cover;
+  /* object-position: -250px; */
+}
+
+.entrenamientos-entrenamiento__card-text-container {
+  margin-block: auto;
+}
+
+.entrenamientos-entrenamiento__card-text {
+  font-size: max(1vw, 0.8rem);
+  width: 100%;
+  padding-block: 11.8%;
+  padding-inline: 15%;
+}
+
+.btn__entrenamientos-entrenamientos-online--rojo {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  padding: 10px 25px;
+  margin-right: 10px;
+}
+.btn__entrenamientos-entrenamientos-online--gris {
+  font-size: 0.8rem;
+  background-color: #3b3b3b;
+  padding: 10px 25px;
+}
+
+/* Medias queries<------------- */
+
+/* ? PLAN HABANA BANNER <------------- */
+
+.plan-habana {
+  background-color: #0e0e0e;
+  scroll-margin-top: 800px;
+}
+
+.plan-habana-banner {
+  background-color: #010002;
+  color: #fff;
+}
+
+.plan-habana-banner__text {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* width: 30%; */
+  /* justify-content: center; */
+  margin: auto;
+  padding: 10%;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.plan-habana-banner__header {
+  font-size: max(3vw, 25px);
+  font-weight: 600;
+}
+
+.plan-habana-banner--bold {
+  font-weight: 500;
+  /* font-size: 1.2rem; */
+}
+
+.plan-habana-banner--small {
+  font-size: max(1vw, 0.8rem);
+}
+
+/* .plan-habana-banner__imagen-container {
+  width: 100%;
+} */
+
+.plan-habana-banner__imagen {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* ? PLAN HABANA EXPOSICION <--------- */
+
+.plan-habana-exposicion {
+  padding-block: 80px;
+  /* width: 65%; */
+  padding-inline: 18%;
+  margin: 0 auto;
+  background: linear-gradient(#313131, #000);
+  color: #ffffff;
+}
+
+.plan-habana-exposicion__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.plan-habana-exposicion--small {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.plan-habana-exposicion--big {
+  font-size: 3rem;
+
+  font-weight: 700;
+}
+
+.plan-habana-exposicion__header-logo {
+  width: 270px;
+}
+
+.exposicion-p1 {
+  font-size: 1.4rem;
+  font-weight: 200;
+  line-height: 1.9rem;
+  text-align: justify;
+}
+.exposicion-p2 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: justify;
+  color: #b9b9b9;
+}
+
+.plan-habana-exposicion--bold {
+  font-weight: 300;
+}
+.exposicion-p3 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: justify;
+  color: #989898;
+}
+.exposicion-p4 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: justify;
+  color: #909090;
+}
+.exposicion-p5 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-align: justify;
+  color: #6f6f6f;
+  margin-bottom: 50px;
+}
+
+.btn-plan-habana-exposicion {
+  font-size: 1rem;
+  padding: 10px 40px;
+}
+
+/* ? INTERNADO <---------------- */
+.internado {
+  background: linear-gradient(#850731, #6c0526);
+  color: #fff;
+  padding-inline: 10%;
+  padding-block: 50px;
+}
+
+.internado__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.internado__header-text {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.internado__header-logo {
+  height: 40px;
+}
+
+.internado__paragraph {
+  font-size: max(1rem);
+  font-weight: 200;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.internado__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-bottom: 200px; */
+}
+
+.btn__internado {
+  background-color: #ffffff;
+  color: #850731;
+  font-size: 1rem;
+  padding: 10px 30px;
+}
+
+.internado__footer-text {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.internado__images-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 3rem;
+}
+
+.internado__image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.talleres {
+  padding: 5% 15% 80px 15%;
+  align-items: center;
+  background: linear-gradient(#fff, #fbfbfb);
+  overflow-x: hidden;
+}
+
+.talleres__header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #850731;
+}
+
+.talleres__paragraph {
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  padding-right: 95px;
+  padding-bottom: 30px;
+}
+
+.btn__talleres {
+  padding: 10px 30px;
+  font-size: 0.9rem;
+}
+
+.talleres__image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* MEDIA QUERIES <---------------- */
+
+@media (max-width: 992px) {
+  .plan-habana-exposicion__header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .entrenamientos-entrenamiento__card-image {
+    object-position: 70%;
+  }
+
+  .plan-habana-banner__imagen {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .plan-habana-exposicion {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exposicion-p1 {
+    font-size: 1.2rem;
+  }
+  .exposicion-p2 {
+    font-size: 1rem;
+  }
+
+  .exposicion-p3 {
+    font-size: 1rem;
+  }
+  .exposicion-p4 {
+    font-size: 1rem;
+  }
+  .exposicion-p5 {
+    font-size: 1rem;
+  }
+
+  .btn-plan-habana-exposicion-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .internado__footer-text {
+    padding-top: 30px;
+    width: 80%;
+  }
+  .talleres__image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .talleres__image {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .entrenamientos-entrenamiento__card-image {
+    object-position: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .entrenamientos__header {
+    font-size: 10vw;
+  }
+  .plan-habana-exposicion--big {
+    font-size: 2.2rem;
+  }
+  .row {
+    max-width: 100%;
+    gap: 1rem;
+  }
+
+  .entrenamientos-entrenamiento__card-image {
+    object-position: center;
+  }
+
+  .internado__images-container {
+    align-items: center;
+  }
+  /* 
+  .internado__image {
+    height: 80px;
+  } */
+
+  .internado__footer {
+    flex-direction: column;
+    /* text-align: center; */
+  }
+
+  .talleres__header {
+    text-align: center;
+  }
+
+  .talleres__paragraph {
+    padding-right: 0px;
+    text-align: justify;
+  }
+
+  .talleres__text {
+    text-align: center;
+  }
+  .btn__talleres-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.nopadding {
+  padding-left: 0 !important;
+}

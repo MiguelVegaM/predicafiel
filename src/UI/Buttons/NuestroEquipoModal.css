@@ -1,0 +1,53 @@
+.modal-content {
+  border-radius: 50px;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.modal-header {
+  flex-direction: column;
+  padding-top: 50px;
+  border-bottom-width: 0px;
+}
+
+.btn-close {
+  font-size: 0.75rem;
+  color: #fff;
+  background-color: #61eacd;
+  opacity: inherit;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  /* padding: 10px !important; */
+  filter: invert();
+}
+
+.nuestro-equipo-modal__img {
+  width: 150px;
+  border-radius: 50%;
+}
+.modal-title {
+  color: #850731;
+  padding-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.modal-body {
+  font-size: 0.7rem;
+  color: #555555;
+  padding-inline: 10%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* @media (min-width: 640px) {
+  .modal-lg,
+  .modal-xl {
+    --bs-modal-width: 75vw;
+  }
+  .modal-body {
+    font-size: 0.5rem !important;
+  }
+} */
